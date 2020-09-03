@@ -1,4 +1,4 @@
 L = list(range(0, 110))
 print(L)
 input()
-L[]
+print(L[1])
