@@ -1,4 +1,5 @@
-L = list(range(0, 110))
-print(L)
-input()
-print(L[1])
+#L = list(range(0, 110))
+
+cena = input()
+#cena.replace(' ', ',')
+print(type(cena[3]))
