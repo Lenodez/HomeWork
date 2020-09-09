@@ -1,5 +1,2 @@
-#L = list(range(0, 110))
+spisok = input('Введите числа через запятую ')
 
-cena = input()
-#cena.replace(' ', ',')
-print(type(cena[3]))
