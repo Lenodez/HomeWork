@@ -1,3 +1,6 @@
+import absx as b
+print(b.f(-5))
+
 spisok = input('Введите числа через запятую ')
 spisok = spisok.split(',')
 perebor = 0
