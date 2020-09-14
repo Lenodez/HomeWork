@@ -1,0 +1,7 @@
+n = int(input())
+for i in range(1, n+1, 2):
+    stroka = ' ' * ((n-i)//2) + '*' * i
+    print(stroka)
+for i in range(n-2, 0, -2):
+    stroka = ' ' * ((n - i) // 2) + '*' * i
+    print(stroka)
