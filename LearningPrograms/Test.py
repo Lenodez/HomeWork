@@ -1,7 +1,7 @@
-def sum_posl(chislo):
-    if chislo == (1 or 2):
-        return 1
-    chislo_pred = sum_posl(chislo-1)
-    return chislo + chislo_pred
-print(sum_posl(8))
-
+n = int(input())
+for i in range(1, n+1, 2):
+    stroka = ' ' * ((n-i)//2) + '*' * i
+    print(stroka)
+for i in range(n-2, 0, -2):
+    stroka = ' ' * ((n - i) // 2) + '*' * i
+    print(stroka)
