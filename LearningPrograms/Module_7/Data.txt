@@ -1,0 +1,12 @@
+{'Female': 
+{'2015-02': {'1_home_page': 11199, '2_search_page': 6820, '3_payment_page': 1235, '4_payment_confirmation_page': 86}, 
+'2015-03': {'1_home_page': 11250, '2_search_page': 4454, '3_payment_page': 337, '4_payment_confirmation_page': 26}, 
+'2015-01': {'1_home_page': 11414, '2_search_page': 6913, '3_payment_page': 1243, '4_payment_confirmation_page': 109}, 
+'2015-04': {'1_home_page': 11212, '2_search_page': 4489, '3_payment_page': 285, '4_payment_confirmation_page': 20}}, 
+покупок в 01-02 195 в 03-04 46
+'Male': 
+{'2015-02': {'1_home_page': 11401, '2_search_page': 6867, '3_payment_page': 1177, '4_payment_confirmation_page': 87}, 
+'2015-03': {'1_home_page': 11350, '2_search_page': 4425, '3_payment_page': 294, '4_payment_confirmation_page': 18}, 
+'2015-01': {'1_home_page': 11186, '2_search_page': 6641, '3_payment_page': 1147, '4_payment_confirmation_page': 80}, 
+'2015-04': {'1_home_page': 11388, '2_search_page': 4591, '3_payment_page': 312, '4_payment_confirmation_page': 26}}}
+покупок в 01-02 167 в 03-04 44
