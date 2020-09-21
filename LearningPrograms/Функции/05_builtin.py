@@ -129,8 +129,8 @@ isinstance(profit, list)
 type(profit)
 
 # open() - открыть файл на файловой системе
-ff = open('lesson_004/lecture_snippets/05_builtin.py', 'r')
-for line in ff.readlines():
+ff = open('lesson_004/lecture_snippets/05_builtin.py', 'r', encoding='UTF8')
+for line in ff:
     print(line, end='')
 ff.close()
 # будет целый урок по работе с файлами, пока просто ознакомились
