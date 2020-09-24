@@ -1,0 +1,33 @@
+{'FemaleDesktop': 
+
+'2015-01': {'1_home_page': 7546, '2_search_page': 3851, '3_payment_page': 625, '4_payment_confirmation_page': 33}, 
+{'2015-02': {'1_home_page': 7448, '2_search_page': 3800, '3_payment_page': 605, '4_payment_confirmation_page': 26}, 
+'2015-03': {'1_home_page': 7512, '2_search_page': 3707, '3_payment_page': 162, '4_payment_confirmation_page': 6}, 
+'2015-04': {'1_home_page': 7491, '2_search_page': 3733, '3_payment_page': 138, '4_payment_confirmation_page': 9}}, 
+	    15003	29 997	  7440 		 15091    300 		1531	15  	74
+
+'MaleDesktop':
+
+'2015-01': {'1_home_page': 7504, '2_search_page': 3678, '3_payment_page': 596, '4_payment_confirmation_page': 27}}, 
+{'2015-02': {'1_home_page': 7602, '2_search_page': 3832, '3_payment_page': 586, '4_payment_confirmation_page': 28}, 
+'2015-03': {'1_home_page': 7538, '2_search_page': 3663, '3_payment_page': 134, '4_payment_confirmation_page': 8}, 
+'2015-04': {'1_home_page': 7559, '2_search_page': 3836, '3_payment_page': 164, '4_payment_confirmation_page': 13}, 
+	     15097     30203 	  7499           15009     298          1480     21     76
+
+'MaleMobile': 
+
+{'2015-01': {'1_home_page': 3682, '2_search_page': 2963, '3_payment_page': 551, '4_payment_confirmation_page': 53}, 
+'2015-02': {'1_home_page': 3799, '2_search_page': 3035, '3_payment_page': 591, '4_payment_confirmation_page': 59}},
+'2015-03': {'1_home_page': 3812, '2_search_page': 762, '3_payment_page': 160, '4_payment_confirmation_page': 10}, 
+'2015-04': {'1_home_page': 3829, '2_search_page': 755, '3_payment_page': 148, '4_payment_confirmation_page': 13}, 
+              7641        15122    1517         7515     308          1450      23       135 
+
+'FemaleMobile': 
+'2015-01': {'1_home_page': 3868, '2_search_page': 3062, '3_payment_page': 618, '4_payment_confirmation_page': 76}}}
+'2015-02': {'1_home_page': 3751, '2_search_page': 3020, '3_payment_page': 630, '4_payment_confirmation_page': 60},
+'2015-03': {'1_home_page': 3738, '2_search_page': 747, '3_payment_page': 175, '4_payment_confirmation_page': 20}, 
+{'2015-04': {'1_home_page': 3721, '2_search_page': 756, '3_payment_page': 147, '4_payment_confirmation_page': 11}, 
+              7459        15078     1503       7585       322         1570      31       161
+ 
+(Первые цифры суммы за 03-04, вторые - за весь период)
+По данным видно что хоть в 03-04 и женщины и мужчины стали реже заходить на страницу поиска с мобильного устройства(~7500 vs ~1500), по сравнению с ПК, но на страницу оплаты они попадали так же часто (~300). Девушки в 'аномальный период 03-04' покупали с пк в 2 раза реже чтото чем с телефона(15 и 31). В то время как мужчины +- ровно (21 и 23).

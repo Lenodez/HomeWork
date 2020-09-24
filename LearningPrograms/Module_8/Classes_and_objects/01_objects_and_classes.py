@@ -46,8 +46,8 @@ class Toyota:
 
     def __init__(self):
         self.color = "Бордовый металлик"
-        self.price = "1 000 000 руб"
         self.max_velocity = "200 км/ч"
+        self.price = "1 000 000 руб"
         self.current_velocity = "0 км/ч"
         self.engine_rpm = 0
 

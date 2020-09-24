@@ -27,4 +27,4 @@ with open('click_stream3.csv', mode='r') as csv_file:  # открываем фа
         else:
             funnel_by_month_Gender[Gender][month]['4_payment_confirmation_page'] += 1
 
-print(funnel_by_month_Gender)
+print(funnel_by_month_Gender['FemaleMobile']['2015-04']['1_home_page'])
