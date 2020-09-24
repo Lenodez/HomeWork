@@ -11,7 +11,8 @@ with open('click_stream3.csv', mode='r') as csv_file:  # открываем фа
     for row in csv_reader:  # перебираем по одной строчке нашего файла
         page = list(row.items())[1][1]
         month = list(row.items())[2][1][:-3]
-        Gender = list(row.items())[3][1][1]
+        Gender = list(row.items())[3][1][1] + list(row.items())[3][1][0]
+
         if Gender not in funnel_by_month_Gender:
             funnel_by_month_Gender[Gender] = {}
         if month not in funnel_by_month_Gender[Gender]:
