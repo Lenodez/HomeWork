@@ -1,9 +1,9 @@
 class Fraction:
-    def __init__(self, a, b):
-        self.chisl = a
-        self.znamen = b
-        self.zelaya_chast = a // b
-        self.plav_t = a / b
+    def __init__(self, chisl, znamen):
+        self.chisl = chisl
+        self.znamen = znamen
+        self.zelaya_chast = chisl // znamen
+        self.plav_t = chisl / znamen
 
     def __str__(self):
         return "{}/{}".format(self.chisl, self.znamen)
@@ -64,29 +64,29 @@ class Fraction:
 
 
 class OperationsOnFraction(Fraction):
-    def __init__(self, a, b):
-        super().__init__(a=a, b=b)
+    def __init__(self, chisl, znamen):
+        super().__init__(chisl=chisl, znamen=znamen)
 
     def getint(self):
-        return self.a // self.b
+        return self.chisl // self.znamen
 
     def getFloat(self):
-        return  self.a / self.b
+        return self.chisl / self.znamen
 
 
-# chiselko = Fraction(a=1, b=2)
-# drugoe = Fraction(a=2, b=1)
-# # print(chiselko)
-# # print(drugoe)
-# # # print(chiselko - drugoe)
-# # # print(drugoe - chiselko)
-# # print(5 - chiselko)
-# # Sum_fract = chiselko + drugoe
-# # print(chiselko + drugoe)
-# Kirusha = Fraction(a=22, b=174)
-# print(Kirusha * chiselko)
-# print(Kirusha * 5)
-# print(int(drugoe))
-# print(float(Kirusha))
-Deniska = OperationsOnFraction(a=10, b=5)
+chiselko = Fraction(chisl=1, znamen=2)
+drugoe = Fraction(chisl=2, znamen=1)
+print(chiselko)
+print(drugoe)
+print(chiselko - drugoe)
+print(drugoe - chiselko)
+print(5 - chiselko)
+Sum_fract = chiselko + drugoe
+print(chiselko + drugoe)
+Kirusha = Fraction(chisl=22, znamen=174)
+print(Kirusha * chiselko)
+print(Kirusha * 5)
+print(int(drugoe))
+print(float(Kirusha))
+Deniska = OperationsOnFraction(chisl=10, znamen=5)
 print(Deniska.getFloat())
