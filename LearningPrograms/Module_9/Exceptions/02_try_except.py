@@ -22,14 +22,14 @@ except ZeroDivisionError:  # указываем имя класса
 # можно перечислять классы ошибок, если обработка их одинаковая
 try:
     truba = a + b
-    truba = 10/0
+    truba = 10 / 0
 except (ZeroDivisionError, NameError):  # указываем имена классов
     print('что-то пошло не так, но мы устояли')
 
 # или на каждый класс ошибки писать свой обработчик
 try:
     truba = a + b
-    truba = 10/0
+    truba = 10 / 0
 except ZeroDivisionError:
     print('Они -убили Кенни- хотели делить на ноль, но мы не упали')
 except NameError:
@@ -37,7 +37,7 @@ except NameError:
 
 # можно ловить сам обьект класса ошибки
 try:
-    a = 10/0
+    a = 10 / 0
 except ZeroDivisionError as exc:
     print(f'вот что пошло не так - {exc}, но мы еще на плаву')
 
@@ -56,9 +56,11 @@ except OSError as exc:
 
 # некоторые ошибки (OSError) содержат доп информацию, для остальных args это просто сообщение для вывода.
 try:
-    a = 10/0
+    a = 10 / 0
 except ZeroDivisionError as exc:
     print(f'вот что пошло не так - {exc} параметры {exc.args}, но мы еще на плаву')
+
+
 # вообще, состав обьекта исключения зависит от ошибки, надо смотреть документацию.
 
 
@@ -73,6 +75,7 @@ def f2():
         summ += f1(number=i)
         print(summ)
     return summ
+
 
 # total = f2()
 try:
@@ -124,10 +127,9 @@ try:
 except ZeroDivisionError as exc:
     print(f'внутри f2 что-то пошло не так: {exc}, но мы устояли')
 
-
 # Действия, если исключений не было - else
 try:
-    10 * (1/0)
+    10 * (1 / 0)
 except ZeroDivisionError:
     print('нельзя делить на ноль!')
 else:
@@ -135,14 +137,13 @@ else:
 
 # действия по подчистке - выполняется всегда - finally
 try:
-    10 * (1/0)
+    10 * (1 / 0)
 except ZeroDivisionError:
     print('нельзя делить на ноль!')
 else:
     print('неужели?!')
 finally:
     print('Прощай, мир!')
-
 
 # обобщенный пример
 try:
@@ -161,7 +162,6 @@ else:
     print('прочитано i=', i)
 finally:
     f.close()
-
 
 # Кстати в методе __exit__ для контекстного менеджера параметры отвечают за исключения
 
