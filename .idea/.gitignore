@@ -6,3 +6,11 @@
 /dataSources.local.xml
 # Editor-based HTTP Client requests
 /httpRequests/
+*.pyc
+*.egg-info
+
+
+# Если вы пользуетесь виртуальными окружениями
+# в проектах. Я, например, обычно ими пользуюсь.
+/env
+.ipynb_checkpoints
