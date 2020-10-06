@@ -39,5 +39,5 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
-        self.btnBrowse.setText(_translate("MainWindow", "Выберите Папку"))
+        self.btnBrowse.setText(_translate("MainWindow", "Выберите папку"))
         self.DoSmthing.setText(_translate("MainWindow", "Я буду полезной"))
