@@ -14,8 +14,9 @@ def delenie(a):
 
 
 try:
-    chsilo = int(input('Введите число ='))
+    chislo = int(input('Введите число ='))
+    delenie()
 
-    delenie(chsilo)
+    delenie(chislo)
 except(ZeroDivisionError):
-    print('Ошибка возникает при a =', delenie(chsilo))
+    print('Ошибка возникает при a =', delenie(chislo))

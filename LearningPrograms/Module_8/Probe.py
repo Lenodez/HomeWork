@@ -1,30 +1,17 @@
-class GrandParent:
+from random import randint, choice
 
-    def method(self):
-        print('call from GrandParent')
+class Lemming:
+    # можно определять атрибуты на уровне класса, тогда они "привязаны" к классу
+    total = 0
 
-
-class ParentOne(GrandParent):
-
-    def method(self):
-        super().method()
-        print('call from ParentOne')
+    def __init__(self):
+        # обращаться - через именование класса
+        Lemming.total += 1
 
 
-class ParentTwo(GrandParent):
-
-    def method(self):
-        super().method()
-        print('call from ParentTwo')
-
-
-class Child(ParentOne, ParentTwo, ):
-
-    def method(self):
-        super().method()
-        print('call from Child')
-
-
-obj = Child()
-obj.method()
-# print(obj.__class__.__mro__)  # так можно посмотреть в каком порядке будут искаться методы
+family = []
+family_size = randint(16, 32)
+while len(family) < family_size:
+    new_lemming = Lemming()
+    family.append(new_lemming)
+print(Lemming.total)

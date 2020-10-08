@@ -16,6 +16,7 @@ class ExampleApp(QtWidgets.QMainWindow, design.Ui_MainWindow):
         if directory:
             for file_name in os.listdir(directory):
                 self.listWidget.addItem(file_name)
+                print(None)
 
 
 def main():
